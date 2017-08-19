@@ -19,7 +19,7 @@ public class ScoreStudent {
   }
   score.average();
   score.average(0);
-  score.averageee();
+  score.average(3, 0);
  
  }
 }

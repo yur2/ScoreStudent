@@ -11,8 +11,7 @@ public class ScoreStudent2 {
  Scanner scan;
  ArrayList student;
  static int sum = 0;
- //static int summ = 0;
- static int summm = 0;
+
 
  public ScoreStudent2(Scanner scan, ArrayList student) {
   this.student = student;
@@ -85,15 +84,15 @@ public class ScoreStudent2 {
 
  }
 
- public void averageee() {
+ public void average(int i, int sum) {
 
-  for (int  i = 3; i <= student.size(); i += 4) {
+  for (i = 3; i <= student.size(); i += 4) {
    int a = (int) student.get(i);
-   summm += a;
+   sum += a;
   }
 
   int b = student.size() / 4;
-  System.out.println("\n¿µ¾î ¼ºÀû ÃÑ Æò±ÕÀº" + (summm / b));
+  System.out.println("\n¿µ¾î ¼ºÀû ÃÑ Æò±ÕÀº" + (sum / b));
 
  }
 } 
